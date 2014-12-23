@@ -1,0 +1,3 @@
+=== Skeleton ===
+
+http://getskeleton.com/

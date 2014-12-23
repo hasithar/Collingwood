@@ -1,0 +1,831 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Rooms :: Collingwood Hootel</title>
+	<meta charset="utf-8">
+	<meta name="description" content="------------ put some here------------------" >
+	<meta name="keywords" content="------put some here ---------------" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+	<link href="css/sidebar/slidebars.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/photobox.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="img/favicon.png">    
+     
+    <script src="js/jquery-1.11.1.js"></script>
+	<script src="js/sidebar/slidebars.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/jquery.photobox.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+<!-- page -->
+<div id="sb-site">
+
+<!-- header section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="row header page-header" id="h-rooms">
+
+    <!-- header -->
+    <div class="container">
+		<div class="u-full-width">
+        	<!-- mobile menu -->
+            <div class="row">
+            	<div class="u-full-width">
+                	<div id="sb-slidebar sb-left sb-style-push">
+                    	<p class="sb-toggle-left menu">Menu</p>
+                    </div>
+                </div>
+			</div><!-- end menu -->
+                
+			<!-- language selection-->
+            <div class="row">
+                <div class="u-full-width" id="lang-selection">
+                	Language
+                </div> <!-- end language -->
+            </div> <!--end language selection -->
+            
+            <!-- navigation -->
+            <div class="row">
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li class="selected-item"><a href="rooms.html">Rooms</a></li>
+                        <li><a href="excrusions.html">Excursions</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="guestbook.html">Guest book</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>                                                 
+                    </ul>
+                </nav>                
+            </div> <!-- end navigation --> 
+        </div> <!-- end header -->    
+    </div> <!-- end container -->
+    <!-- front stripes -->
+    <!--<div id="stripes"></div>-->
+</div> <!-- end header section -->
+
+
+<!-- welcome section
+ –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row">
+        <!-- logo section -->
+        <div class="container" >
+            <div class="row no-margin logo-row" id="logo-main">
+                <div class="four columns logo-spacer">&nbsp;</div>
+
+                <!-- logo placeholder -->
+                <div class="four columns spacer logo-placeholder">
+                	<!-- logo -->
+                    <img class="u-max-full-width logo" src="img/common/logo-main.png" alt="Collingwood Hotel">
+                    <!-- logo shadow -->
+                    <div class="row no-margin u-full-width logo-shadow"> &nbsp; </div>
+                </div> <!-- end logo placeholder -->
+
+                <div class="four columns">&nbsp;</div>
+            </div>    
+        </div> <!-- end logo section-->
+        
+
+        <!-- content -->
+        <div class="row intro" id="page-intro">
+            <div class="container">
+            	<img class="u-max-full-width logo logo-mobile" src="img/common/logo-main.png" alt="Collingwood Hotel" id="page-logo-mobile"> 
+
+                <div class="spacer30"></div> 
+
+                <!-- reservation section
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <div class="row reservation" id="p-reservation">
+                    <div class="four columns">
+                        <p>Reserve your stay. We guarantee you best rates in town.</p>
+                    </div>
+
+                    <form name="res-form" id="res-form" action="#" method="get">
+                    <div class="two columns">Check-in <br><input class="u-max-full-width" type="text" name="check-in" id="check-in"></div>
+                    <div class="two columns">Check-out <br><input class="u-max-full-width" type="text" name="check-out" id="check-out"></div>
+                
+                    <div class="two columns">
+                        <input type="radio" name="nationality" value="lk" id="lk">Sri Lnakan
+                        <br>
+                        <input type="radio" name="nationality" value="non-lk" id="non-lk">Foreign
+                    </div>
+
+                    <div class="two columns">
+                        <input class="u-max-full-width" type="submit" value="Book now"> 
+                    </div>
+                    </form>
+                </div>     
+            </div>            
+        </div> <!-- end content -->
+    </div> <!-- end wlcome section -->
+
+    <div class="row spacer60"></div>
+
+
+<!-- page content
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <!-- rooms
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row">
+        <h1 class="bold">Stay at the comfort of your home</h1>
+
+        <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <div class="spacer60"></div>
+
+        <div class="row content-pane">
+
+            <!-- standard rooms
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="row">
+                <!-- icon -->
+                <div class="u-full-width">
+                    <img src="img/icons/room_standard.gif" alt="Standard Rooms" class="u-max-full-width icon">    
+                </div> <!-- end icon -->
+
+                <!-- heading -->
+                <div class="u-full-width"> <h2 class="content-heading">Standard Rooms</h2> </div>
+                <!-- end heading -->
+
+                <!-- copy -->
+                <div class="u-full-width">   
+                </div> <!-- end copy -->
+
+                <!-- images -->
+                <div class="u-full-width gallery" id="gal-room-standard">
+                    <!-- gallery first row -->
+                    <div class="row">
+                        <!-- 1.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/1_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/1_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 1.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/2_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/2_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 1.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/3_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/3_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 1.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/4_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/4_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery first row -->
+                    
+                    <!-- gallery second row -->
+                    <div class="row">
+                        <!-- 2.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/5_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/5_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 2.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/6_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/6_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 2.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/7_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/7_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 2.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/8_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/8_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+
+                    <!-- gallery third row -->
+                    <div class="row">
+                        <!-- 3.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/9_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/9_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 3.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/10_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/10_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 3.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/11_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/11_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 3.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/12_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/12_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+                </div> <!-- end images -->
+
+                <!-- room type info -->
+                <div class="row room-info">
+                    <ul>
+                        <li>Number of rooms: <span class="room-info-detail">5</span></li>
+                        <li>Number of beds per room: <span class="room-info-detail">1 Single bed</span></li>
+                        <li>Other: <span class="room-info-detail">Attached bathroom with hot water</span></li>
+                    </ul>
+                </div><!-- room type info -->
+                <!-- spacer -->
+                <div class="spacer30"></div>
+                <div class="row spacer120 stylized"></div>
+            </div> <!-- end standard rooms -->
+
+
+
+            <!-- double rooms
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="row">
+                <!-- icon -->
+                <div class="u-full-width">
+                    <img src="img/icons/room_double.gif" alt="Double Rooms" class="u-max-full-width icon">    
+                </div> <!-- end icon -->
+
+                <!-- heading -->
+                <div class="u-full-width"> <h2 class="content-heading">Double Rooms</h2> </div>
+                <!-- end heading -->
+
+                <!-- copy -->
+                <div class="u-full-width">   
+                </div> <!-- end copy -->
+
+                <!-- images -->
+                <div class="u-full-width gallery" id="gal-room-double">
+                    <!-- gallery first row -->
+                    <div class="row">
+                        <!-- 1.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/13_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/13_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 1.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/14_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/14_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 1.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/15_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/15_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 1.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/1_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/1_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery first row -->
+                    
+                    <!-- gallery second row -->
+                    <div class="row">
+                        <!-- 2.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/2_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/2_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 2.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/3_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/3_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 2.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/4_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/4_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 2.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/5_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/5_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+
+                    <!-- gallery third row -->
+                    <div class="row">
+                        <!-- 3.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/6_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/6_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 3.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/7_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/7_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 3.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/8_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/8_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 3.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/9_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/9_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+                </div> <!-- end images -->
+
+                <!-- room type info -->
+                <div class="row room-info">
+                    <ul>
+                        <li>Number of rooms: <span class="room-info-detail">3</span></li>
+                        <li>Number of beds per room: <span class="room-info-detail">2 Double beds</span></li>
+                        <li>Other: <span class="room-info-detail">Attached bathroom with hot water</span></li>
+                    </ul>
+                </div><!-- room type info -->
+                <!-- spacer -->
+                <div class="spacer30"></div>
+                <div class="row spacer120 stylized"></div>
+            </div> <!-- end double rooms -->
+
+
+            <!-- family rooms
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="row">
+                <!-- icon -->
+                <div class="u-full-width">
+                    <img src="img/icons/room_family.gif" alt="Family Rooms" class="u-max-full-width icon">    
+                </div> <!-- end icon -->
+
+                <!-- heading -->
+                <div class="u-full-width"> <h2 class="content-heading">Family Rooms</h2> </div>
+                <!-- end heading -->
+
+                <!-- copy -->
+                <div class="u-full-width">   
+                </div> <!-- end copy -->
+
+                <!-- images -->
+                <div class="u-full-width gallery" id="gal-room-family">
+                    <!-- gallery first row -->
+                    <div class="row">
+                        <!-- 1.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/10_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/10_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 1.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/11_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/11_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 1.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/12_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/12_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 1.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/13_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/13_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery first row -->
+                    
+                    <!-- gallery second row -->
+                    <div class="row">
+                        <!-- 2.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/14_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/14_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 2.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/15_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/15_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 2.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/1_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/1_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 2.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/2_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/2_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+
+                    <!-- gallery third row -->
+                    <div class="row">
+                        <!-- 3.1 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/3_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/3_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                       
+                        <!-- 3.2 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/4_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/4_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>                              
+                        <!-- 3.3 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/5_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/5_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                        <!-- 3.4 -->
+                        <div class="three columns">
+                            <div class="row">
+                                <div class="u-full-width">
+                                    <a href="img/rooms/6_large.jpg">
+                                        <img class="u-full-width" src="img/rooms/6_small.jpg" alt="Room 1">
+                                    </a>  
+                                </div>  
+                            </div>
+                        </div>       
+                    </div> <!-- end gallery second row -->
+                </div> <!-- end images -->
+
+                <!-- room type info -->
+                <div class="row room-info">
+                    <ul>
+                        <li>Number of rooms: <span class="room-info-detail">3</span></li>
+                        <li>Number of beds per room: <span class="room-info-detail">1 Single bed, 2 Double beds</span></li>
+                        <li>Other: <span class="room-info-detail">Attached bathroom with hot water</span></li>
+                    </ul>
+                </div><!-- room type info -->
+                <!-- spacer -->
+                <div class="spacer30"></div>
+                <div class="row spacer120 stylized"></div>
+            </div> <!-- end family rooms -->
+
+        </div> <!-- end content-pane -->
+    </div> <!-- end row --> 
+</div> <!-- end container -->
+
+<div class="spacer120"></div>
+
+
+
+<!-- footer section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+<div class="row" id="footer-logos">
+    <div class="container">
+        <div class="row" id="footer-logos-placeholder">
+            <!-- logo one -->
+            <div class="four columns ft-logo">
+                <div class="row">
+                    <!-- image -->
+                    <div class="u-full-width">
+                        <a href="http://www.booking.com" title="Find us on Booking.com"><img class="u-max-full-width" src="img/logos/booking.png" alt="Find us on Booking.com"></a>
+                    </div>
+                </div>                    
+            </div> <!-- end logo one -->
+            
+            <!-- logo two -->
+            <div class="four columns ft-logo">
+                <div class="row">
+                    <!-- image -->
+                    <div class="u-full-width">
+                        <a href="http://www.agoda.com" title="Find us on Agoda"><img class="u-max-full-width" src="img/logos/agoda.png" alt="Find us on Agoda"></a>
+                    </div>
+                </div>                    
+            </div> <!-- end logo two -->
+
+            <!-- logo three -->
+            <div class="four columns ft-logo">
+                <div class="row">
+                    <!-- image -->
+                    <div class="u-full-width">
+                        <a href="http://www.tripadvisor.com" title="Find us on TripAdvisor"><img class="u-max-full-width" src="img/logos/trip-advisor.png" alt="Find us on Trip Advisor"></a>
+                    </div>
+                </div>                    
+            </div> <!-- end logo three -->
+        </div> <!-- end row -->
+        <div class="spacer30">&nbsp;</div>
+    </div> <!-- end container -->
+</div> <!-- end footer-logos -->    
+
+    <!-- logo section -->
+    <div class="container">
+        <div class="row no-margin logo-row" id="logo-footer">
+            <div class="four columns logo-spacer">&nbsp;</div>
+
+                <!-- logo placeholder -->
+                <div class="four columns spacer logo-placeholder">
+                    <!-- logo -->
+                    <img class="u-max-full-width logo" src="img/common/logo-footer.png" alt="Collingwood Hotel">
+                    <!-- logo shadow -->
+                    <div class="row no-margin u-full-width logo-shadow"> &nbsp; </div>
+                </div> <!-- end logo placeholder -->
+
+            <div class="four columns">&nbsp;</div>
+        </div>    
+    </div> <!-- end logo section-->
+        
+
+    <!-- content -->
+    <div class="row" id="footer">
+        <div class="container">
+            <!-- footer
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row">
+            <!-- footer logo -->
+            <div class="row"><img class="u-max-full-width logo logo-mobile" src="img/common/logo-footer.png" alt="Collingwood Hotel"></div> <!-- end footer logo -->  
+
+            <!-- footer links -->
+            <div class="row">
+                <ul id="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="excrusions.html">Excursions</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="guestbook.html">Guest book</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>                                                  
+                </ul>   
+            </div>  <!-- end footer links -->
+
+            <!-- footer content -->
+            <div class="row">
+                <div class="six columns" id="contact-first">
+                    <p>Collingwood Hotel</p>
+                    <p>#128, Badulla Road, Nuwara Eliya, <br> 
+                    22200 <br>
+                    Nuwara Eliya, Sri Lanka</p>
+                </div>
+
+                <div class="six columns" id="contact-second">
+                    <p>contact@collingwood-hotel.com <br>
+                    +94 052 2222915
+                    +94 077 3232434
+                    </p>
+
+                    <div>
+                        Find us on <br>
+                        <ul id="social-links">
+                        	<li id="one"><a href="http://www.facebook.com">facebook</a></li>
+                            <li><a href="http://www.twitter.com">twitter</a></li>
+                            <li><a href="https://plus.google.com">gplus</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- end footer content -->
+
+            <!-- copyrights -->
+            <div class="row">
+                <p id="copyrights">© 2014 Collingwood Hotel  |  Site by Hasitha</p>
+            </div> <!-- end copyrights -->
+        </div> <!-- end footer -->
+    </div> <!-- end footer section -->
+        </div>            
+    </div> <!-- end content -->
+
+  
+
+ 	<!-- sidebar navigation --> 
+	<div class="sb-slidebar sb-left sb-style-push" id="nav-sidebar">
+    	<p class="sb-toggle-left" id="menu-close">Close</p>
+    
+  		<ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li class="selected-item"><a href="rooms.html">Rooms</a></li>
+            <li><a href="excrusions.html">Excursions</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="guestbook.html">Guest book</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reservation.html">Reservation</a></li>   
+            <li><div id='MicrosoftTranslatorWidget' class='Light' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){{var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=True&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); }},0);</script>
+            </li>                                                 
+         </ul> 
+	</div> <!-- end sidebar navigation -->
+    
+    
+   <!-- gallery script --> 
+        <script>
+    		$('#gal-room-standard').photobox('a');
+            $('#gal-room-double').photobox('a');
+            $('#gal-room-family').photobox('a');
+
+    		//standard rooms
+    		$('#gal-room-standard').photobox('a:first', { thumbs:false, time:0 }, imageLoaded);
+    		function imageLoaded(){
+    			console.log('Standard room images has been loaded...');
+    		}
+            //double rooms
+            $('#gal-room-double').photobox('a:first', { thumbs:false, time:0 }, imageLoaded);
+            function imageLoaded(){
+                console.log('Double room images has been loaded...');
+            }
+            //family rooms
+            $('#gal-room-family').photobox('a:first', { thumbs:false, time:0 }, imageLoaded);
+            function imageLoaded(){
+                console.log('Family room images has been loaded...');
+            }
+    	</script>
+    
+    
+
+  <!-- sidebar navigation script --> 
+  <script>
+  (function($) {
+    $(document).ready(function() {
+      $.slidebars();
+    });
+  }) (jQuery);
+</script>
+
+
+
+
+
+</body>
+</html>
