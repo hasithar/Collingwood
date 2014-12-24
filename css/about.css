@@ -1,0 +1,65 @@
+/* Header section
+-----------------------------------------------------------------------------------------------*/
+
+/* Header imagge
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#h-about {
+	background-image: url(../img/headers/about.jpg);}
+
+
+
+/* Header
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */	
+.page-header {
+	height:219px;}
+
+	/* Larger than desktop */
+	@media (min-width: 1000px) {
+		.page-header {
+			height:292px;}
+	}
+
+	/* Larger than Desktop HD */
+	@media (min-width: 1200px) {
+		.page-header {
+			height:350px;}
+	}		
+
+
+
+
+/* Intro section
+-----------------------------------------------------------------------------------------------*/
+#page-intro {
+ 	margin-top: -2.5rem;}	
+
+	/* Larger than phablet */
+	@media (min-width: 550px) {
+		#page-intro {
+ 			margin-top: -6.5rem;}
+	}
+
+	/* Larger than tablet */
+	@media (min-width: 750px) {
+		#page-intro {
+ 			margin-top: -9rem;}
+	}
+
+	/* Larger than desktop */
+	@media (min-width: 1000px) {
+		#page-intro {
+ 			margin-top: -9.5rem;}
+	}
+	
+
+#page-intro .logo-mobile {
+	margin-top: -12rem;
+	padding-top: 0;
+}	
+
+
+#p-reservation {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
