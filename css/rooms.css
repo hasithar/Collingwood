@@ -1,0 +1,54 @@
+/* Header section
+-----------------------------------------------------------------------------------------------*/
+
+/* Header imagge
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#h-rooms {
+	background-image: url(../img/headers/rooms.jpg);}
+
+
+
+/* Room information
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */	
+.room-info {
+	background-color: #108885;
+	background: -moz-linear-gradient(left,  rgba(200,226,232,0) 0%, rgba(200,226,232,1) 20%, rgba(200,226,232,1) 80%, rgba(200,226,232,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(200,226,232,0)), color-stop(20%,rgba(200,226,232,1)), color-stop(80%,rgba(200,226,232,1)), color-stop(100%,rgba(200,226,232,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(200,226,232,0) 0%,rgba(200,226,232,1) 20%,rgba(200,226,232,1) 80%,rgba(200,226,232,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(200,226,232,0) 0%,rgba(200,226,232,1) 20%,rgba(200,226,232,1) 80%,rgba(200,226,232,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(200,226,232,0) 0%,rgba(200,226,232,1) 20%,rgba(200,226,232,1) 80%,rgba(200,226,232,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(200,226,232,0) 0%,rgba(200,226,232,1) 20%,rgba(200,226,232,1) 80%,rgba(200,226,232,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d0e2e6', endColorstr='#00d0e2e6',GradientType=1 ); /* IE6-9 */
+}
+
+	.room-info > ul {
+		display: inline-block;
+		font-family: 'Arimo', sans-serif;
+		font-style: 1.6rem;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;}
+
+		.room-info > ul > li {
+			list-style-type: none;
+			list-style: none;
+			display: inline;
+			padding: 0.5rem;}
+
+			.room-info > ul > li:before {
+				content: '|';
+				margin-left: 1rem;
+				margin-right: 1rem;}
+
+				.room-info > ul > li:first-child:before {
+					content: '';
+					margin-left: 0;}
+
+				@media (min-width: 750px) {
+					.room-info > ul > li:first-child {
+						margin-left: 2.5rem;}
+				}
+
+.room-info-detail {
+	margin-left: 0.75rem;
+	color: #189693;}	
