@@ -7,3 +7,10 @@ http://plugins.adchsm.me/slidebars/
 === Background Slideshow ===
 
 https://github.com/rewish/jquery-bgswitcher
+
+
+
+
+=== Image Gallery (Photobox) ===
+
+https://github.com/yairEO/photobox
