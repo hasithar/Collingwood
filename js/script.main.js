@@ -10,11 +10,6 @@ $(document).ready(function(){
   		duration: 1500
 	});
 	//end bgswitcher
-	
-
-
-
-
 
 
 

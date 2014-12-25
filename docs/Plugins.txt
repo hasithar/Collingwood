@@ -14,3 +14,9 @@ https://github.com/rewish/jquery-bgswitcher
 === Image Gallery (Photobox) ===
 
 https://github.com/yairEO/photobox
+
+
+
+=== Sliding Images (Responsiveslides) ===
+
+http://responsiveslides.com/

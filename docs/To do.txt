@@ -1,1 +1,5 @@
 === Enable microsoft translater in every page ===
+
+=== Move and consolidate CSS ===
+
+=== Move and consolidate JavaScript ===

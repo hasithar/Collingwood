@@ -1,23 +1,32 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Excrusions :: Collingwood Hootel</title>
-	<meta charset="utf-8">
-	<meta name="description" content="------------ put some here------------------" >
-	<meta name="keywords" content="------put some here ---------------" >
+	<title>Excursions : Collingwood Hotel</title>
+    <meta charset="utf-8">
+    <meta name="description" content="------------ put some here------------------" >
+    <meta name="keywords" content="------put some here ---------------" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
-	<link href="css/sidebar/slidebars.css" rel="stylesheet" type="text/css">
+        
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/slidebars.min.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/skeleton.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/facilities.css">
+    <link rel="stylesheet" href="css/rooms.css">
+    <link rel="stylesheet" href="css/excursions.css">
+
+    <!-- icons -->
+    <link rel="icon" type="image/png" href="css/img/favicon.png">
+
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300%7CMerriweather%7CArimo' rel='stylesheet' type='text/css'>    
      
+    <!-- scripts -->
     <script src="js/jquery-1.11.1.js"></script>
-	<script src="js/sidebar/slidebars.js"></script>
-    <script src="js/jquery.bgswitcher.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/slidebars.min.js"></script>
+    <script src="js/script.main.js"></script>
 </head>
 
 <body>
@@ -56,7 +65,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="facilities.html">Facilities</a></li>
                         <li><a href="rooms.html">Rooms</a></li>
-                        <li class="selected-item"><a href="excrusions.html">Excursions</a></li>
+                        <li class="selected-item"><a href="excursions.html">Excursions</a></li>
                         <li><a href="activities.html">Activities</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="guestbook.html">Guest book</a></li>
@@ -67,8 +76,6 @@
             </div> <!-- end navigation --> 
         </div> <!-- end header -->    
     </div> <!-- end container -->
-    <!-- front stripes -->
-    <!--<div id="stripes"></div>-->
 </div> <!-- end header section -->
 
 
@@ -83,7 +90,7 @@
                 <!-- logo placeholder -->
                 <div class="four columns spacer logo-placeholder">
                 	<!-- logo -->
-                    <img class="u-max-full-width logo" src="img/common/logo-main.png" alt="Collingwood Hotel">
+                    <img class="u-max-full-width logo" src="img/logo-main.png" alt="Collingwood Hotel">
                     <!-- logo shadow -->
                     <div class="row no-margin u-full-width logo-shadow"> &nbsp; </div>
                 </div> <!-- end logo placeholder -->
@@ -96,7 +103,7 @@
         <!-- content -->
         <div class="row intro" id="page-intro">
             <div class="container">
-            	<img class="u-max-full-width logo logo-mobile" src="img/common/logo-main.png" alt="Collingwood Hotel" id="page-logo-mobile"> 
+            	<img class="u-max-full-width logo logo-mobile" src="img/logo-main.png" alt="Collingwood Hotel" id="page-logo-mobile"> 
 
                 <div class="spacer30"></div> 
 
@@ -112,7 +119,7 @@
                     <div class="two columns">Check-out <br><input class="u-max-full-width" type="text" name="check-out" id="check-out"></div>
                 
                     <div class="two columns">
-                        <input type="radio" name="nationality" value="lk" id="lk">Sri Lnakan
+                        <input type="radio" name="nationality" value="lk" id="lk">Sri Lankan
                         <br>
                         <input type="radio" name="nationality" value="non-lk" id="non-lk">Foreign
                     </div>
@@ -124,7 +131,7 @@
                 </div>     
             </div>            
         </div> <!-- end content -->
-    </div> <!-- end wlcome section -->
+    </div> <!-- end welcome section -->
 
     <div class="row spacer60"></div>
 
@@ -142,37 +149,56 @@
     </div> <!-- end info -->
 
     <!-- spacer -->
-    <div class="spacer60"></div> 
+    <div class="spacer30"></div> 
 
     <!-- Location one 
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row excursion ex-large">
+    <div class="row excursion ex-large">        
         <!-- image -->
         <div class="row u-full-width ex-image">
             <!-- heading -->
-            <h2 class="ex-heading">Horton Plaines</h2>  
+            <h2 class="ex-heading">Horton Plains</h2> 
 
-            <!-- image list -->
-            <ul class="ex-imglist">
-                <li><img src="img/excursions/1.jpg" alt=""></li>
-                <li><img src="img/excursions/2.jpg" alt=""></li>
-                <li><img src="img/excursions/3.jpg" alt=""></li>
-            </ul>
-            <!-- end image list -->  
+            <!-- image -->
+            <img src="img/excursions/1.jpg" alt="" class="u-max-full-width">
+            <!-- end image -->  
 
         </div> <!-- end image -->
 
         <!-- copy -->
-        <div class="row u-full-width">
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="row ex-copy">
+            <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
             </p> 
 
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="justified">The Horton Plains are the headwaters of three major Sri Lankan rivers, the Mahaweli, Kelani, and Walawe. In Sinhala the plains are known as Maha Eliya Plains. Stone tools dating back to Balangoda culture have been found here. The plains' vegetation is grasslands interspersed with montane forest, and includes many endemic woody plants. Large herds of Sri Lankan sambar deer feature as typical mammals, and the park is also an Important Bird Area with many species not only endemic to Sri Lanka but restricted to the Horton Plains. Forest dieback is one of the major threats to the park and some studies suggest that it is caused by a natural phenomenon.
             </p>
 
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="justified">Horton Plains is located on the southern plateau of the central highlands of Sri Lanka.The peaks of Kirigalpoththa (2,389 metres (7,838 ft)) and Thotupola Kanda (2,357 metres (7,733 ft)), the second and the third highest of Sri Lanka, are situated to the west and north respectively. The park's elevation ranges from 2,100–2,300 metres (6,900–7,500 ft).The rocks found in the park belong to the Archaean age and belong to the high series of the Precambrian era and are made up of Khondalites, Charnockites and granitic gneisses.The soil type is of the red-yellow podsolic group and the surface layer is covered with decayed organic matter.
             </p> 
-        </div><!-- end copy -->
+        
+            <!-- images -->
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/excursions/t_1.jpg" alt="Horton Plaines" class="u-max-full-width">
+                    <div class="img-info">
+                        <h3>Scenery of Horton planes</h3>
+                    </div>    
+                </div>
+
+                <div class="four columns">
+                    <img src="img/excursions/t_2.jpg" alt="Horton Plaines" class="u-max-full-width">
+                     <div class="img-info">
+                        <h3>Scenery of Horton planes</h3>
+                    </div> 
+                </div>
+
+                <div class="four columns">
+                    <img src="img/excursions/t_3.jpg" alt="Horton Plaines" class="u-max-full-width"> <div class="img-info">
+                        <h3>Scenery of Horton planes</h3>
+                    </div> 
+                </div>
+            </div> <!-- end images -->
+        </div>  <!-- end copy -->
     </div>  <!-- end location one --> 
 
     <!-- spacers -->
@@ -182,33 +208,49 @@
 
     <!-- Location two 
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="row excursion ex-large">
+        <div class="row excursion ex-large">        
         <!-- image -->
         <div class="row u-full-width ex-image">
             <!-- heading -->
-            <h2 class="ex-heading">Horton Plaines</h2>  
+            <h2 class="ex-heading">Adam's Peak</h2> 
 
-            <!-- image list -->
-            <ul class="ex-imglist">
-                <li><img src="img/excursions/1.jpg" alt=""></li>
-                <li><img src="img/excursions/2.jpg" alt=""></li>
-                <li><img src="img/excursions/3.jpg" alt=""></li>
-            </ul>
-            <!-- end image list -->  
+            <!-- image -->
+            <img src="img/excursions/2.jpg" alt="" class="u-max-full-width">
+            <!-- end image -->  
 
         </div> <!-- end image -->
 
         <!-- copy -->
-        <div class="row u-full-width">
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="row ex-copy">
+            <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
             </p> 
 
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="justified">The Horton Plains are the headwaters of three major Sri Lankan rivers, the Mahaweli, Kelani, and Walawe. In Sinhala the plains are known as Maha Eliya Plains. Stone tools dating back to Balangoda culture have been found here. The plains' vegetation is grasslands interspersed with montane forest, and includes many endemic woody plants. Large herds of Sri Lankan sambar deer feature as typical mammals, and the park is also an Important Bird Area with many species not only endemic to Sri Lanka but restricted to the Horton Plains. Forest dieback is one of the major threats to the park and some studies suggest that it is caused by a natural phenomenon.
             </p>
+        
+            <!-- images -->
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/excursions/t_1.jpg" alt="Horton Plaines" class="u-max-full-width">
+                    <div class="img-info">
+                        <h3>Scenery of Adam's peak</h3>
+                    </div>    
+                </div>
 
-            <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p> 
-        </div><!-- end copy -->
+                <div class="four columns">
+                    <img src="img/excursions/t_2.jpg" alt="Horton Plaines" class="u-max-full-width">
+                     <div class="img-info">
+                        <h3>Scenery of Adam's peak</h3>
+                    </div> 
+                </div>
+                
+                <div class="four columns">
+                    <img src="img/excursions/t_3.jpg" alt="Horton Plaines" class="u-max-full-width"> <div class="img-info">
+                        <h3>Scenery of Adam's peak</h3>
+                    </div> 
+                </div>
+            </div> <!-- end images -->
+        </div>  <!-- end copy -->
     </div>  <!-- end location two --> 
 
     <!-- spacers -->
@@ -223,28 +265,27 @@
 
             <!-- Location three 
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row excursion ex-small">
+            <div class="row excursion ex-small">       
                 <!-- image -->
                 <div class="row u-full-width ex-image">
                     <!-- heading -->
-                    <h2 class="ex-heading">Horton Plaines</h2>  
+                    <h2 class="ex-heading">Horton Plains</h2> 
 
-                    <!-- image list -->
-                    <ul class="ex-imglist">
-                        <li><img src="img/excursions/1.jpg" alt=""></li>
-                        <li><img src="img/excursions/2.jpg" alt=""></li>
-                        <li><img src="img/excursions/3.jpg" alt=""></li>
-                    </ul>
-                    <!-- end image list -->  
+                    <!-- image -->
+                    <img src="img/excursions/3.jpg" alt="" class="u-max-full-width">
+                    <!-- end image -->  
 
                 </div> <!-- end image -->
 
                 <!-- copy -->
-                <div class="row u-full-width">
-                    <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="row ex-copy">
+                    <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
                     </p> 
-                </div><!-- end copy -->
+                </div>  <!-- end copy -->
             </div>  <!-- end location three --> 
+
+            <div class="spacer30"></div>
+            <div class="separator"></div>
         </div> <!-- end 1.1 -->
         
         <!-- 1.2 -->
@@ -252,42 +293,90 @@
 
             <!-- Location four 
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row excursion ex-small">
+            <div class="row excursion ex-small">       
                 <!-- image -->
                 <div class="row u-full-width ex-image">
                     <!-- heading -->
-                    <h2 class="ex-heading">Horton Plaines</h2>  
+                    <h2 class="ex-heading">Hakgala Gardens</h2> 
 
-                    <!-- image list -->
-                    <ul class="ex-imglist">
-                        <li><img src="img/excursions/1.jpg" alt=""></li>
-                        <li><img src="img/excursions/2.jpg" alt=""></li>
-                        <li><img src="img/excursions/3.jpg" alt=""></li>
-                    </ul>
-                    <!-- end image list -->  
+                    <!-- image -->
+                    <img src="img/excursions/1.jpg" alt="" class="u-max-full-width">
+                    <!-- end image -->  
 
                 </div> <!-- end image -->
 
                 <!-- copy -->
-                <div class="row u-full-width">
-                    <p class="justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="row ex-copy">
+                    <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
                     </p> 
-                </div><!-- end copy -->
-            </div>  <!-- end location four -->     
+                </div>  <!-- end copy -->
+            </div>  <!-- end location four --> 
+
+            <div class="spacer30"></div>
+            <div class="separator"></div>    
         </div> <!-- end 1.2 -->
-    </div> <!-- ens location info row one -->
+    </div> <!-- end location info row one -->
 
+    <div class="spacer30"></div>
 
+    <!-- location small row two -->
+    <div class="row">
+        <!-- 2.1 -->
+        <div class="six columns">
 
+            <!-- Location five 
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="row excursion ex-small">       
+                <!-- image -->
+                <div class="row u-full-width ex-image">
+                    <!-- heading -->
+                    <h2 class="ex-heading">Horton Plains</h2> 
 
+                    <!-- image -->
+                    <img src="img/excursions/2.jpg" alt="" class="u-max-full-width">
+                    <!-- end image -->  
 
+                </div> <!-- end image -->
 
+                <!-- copy -->
+                <div class="row ex-copy">
+                    <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
+                    </p> 
+                </div>  <!-- end copy -->
+            </div>  <!-- end location five --> 
 
+            <div class="spacer30"></div>
+            <div class="separator"></div>
+        </div> <!-- end 2.1 -->
+        
+        <!-- 2.2 -->
+        <div class="six columns">
 
+            <!-- Location six 
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="row excursion ex-small">       
+                <!-- image -->
+                <div class="row u-full-width ex-image">
+                    <!-- heading -->
+                    <h2 class="ex-heading">Adam's Peak</h2> 
 
+                    <!-- image -->
+                    <img src="img/excursions/3.jpg" alt="" class="u-max-full-width">
+                    <!-- end image -->  
 
+                </div> <!-- end image -->
 
+                <!-- copy -->
+                <div class="row ex-copy">
+                    <p class="justified">Horton Plains National Park is a protected area in the central highlands of Sri Lanka and is covered by montane grassland and cloud forest. This plateau at an altitude of 2,100–2,300 metres (6,900–7,500 ft) is rich in biodiversity and many species found here are endemic to the region. This region was designated a national park in 1988. It is also a popular tourist destination and is situated 32 kilometres (20 mi) from Nuwara Eliya and 8 kilometres (5.0 mi) from Ohiya.
+                    </p> 
+                </div>  <!-- end copy -->
+            </div>  <!-- end location six --> 
 
+            <div class="spacer30"></div>
+            <div class="separator"></div>    
+        </div> <!-- end 2.2 -->
+    </div> <!-- end location info row one -->
 
 </div> <!-- end container -->
 
@@ -306,7 +395,7 @@
                 <div class="row">
                     <!-- image -->
                     <div class="u-full-width">
-                        <a href="http://www.booking.com" title="Find us on Booking.com"><img class="u-max-full-width" src="img/logos/booking.png" alt="Find us on Booking.com"></a>
+                        <a href="http://www.booking.com" title="Find us on Booking.com"><img class="u-max-full-width" src="img/icons/booking.png" alt="Find us on Booking.com"></a>
                     </div>
                 </div>                    
             </div> <!-- end logo one -->
@@ -316,7 +405,7 @@
                 <div class="row">
                     <!-- image -->
                     <div class="u-full-width">
-                        <a href="http://www.agoda.com" title="Find us on Agoda"><img class="u-max-full-width" src="img/logos/agoda.png" alt="Find us on Agoda"></a>
+                        <a href="http://www.agoda.com" title="Find us on Agoda"><img class="u-max-full-width" src="img/icons/agoda.png" alt="Find us on Agoda"></a>
                     </div>
                 </div>                    
             </div> <!-- end logo two -->
@@ -326,7 +415,7 @@
                 <div class="row">
                     <!-- image -->
                     <div class="u-full-width">
-                        <a href="http://www.tripadvisor.com" title="Find us on TripAdvisor"><img class="u-max-full-width" src="img/logos/trip-advisor.png" alt="Find us on Trip Advisor"></a>
+                        <a href="http://www.tripadvisor.com" title="Find us on TripAdvisor"><img class="u-max-full-width" src="img/icons/trip-advisor.png" alt="Find us on Trip Advisor"></a>
                     </div>
                 </div>                    
             </div> <!-- end logo three -->
@@ -343,7 +432,7 @@
                 <!-- logo placeholder -->
                 <div class="four columns spacer logo-placeholder">
                     <!-- logo -->
-                    <img class="u-max-full-width logo" src="img/common/logo-footer.png" alt="Collingwood Hotel">
+                    <img class="u-max-full-width logo" src="img/logo-mono.png" alt="Collingwood Hotel">
                     <!-- logo shadow -->
                     <div class="row no-margin u-full-width logo-shadow"> &nbsp; </div>
                 </div> <!-- end logo placeholder -->
@@ -360,7 +449,7 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="row">
             <!-- footer logo -->
-            <div class="row"><img class="u-max-full-width logo logo-mobile" src="img/common/logo-footer.png" alt="Collingwood Hotel"></div> <!-- end footer logo -->  
+            <div class="row"><img class="u-max-full-width logo logo-mobile" src="img/logo-mono.png" alt="Collingwood Hotel"></div> <!-- end footer logo -->  
 
             <!-- footer links -->
             <div class="row">
@@ -369,7 +458,7 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="facilities.html">Facilities</a></li>
                     <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="excrusions.html">Excursions</a></li>
+                    <li><a href="excursions.html">Excursions</a></li>
                     <li><a href="activities.html">Activities</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="guestbook.html">Guest book</a></li>
@@ -424,13 +513,15 @@
             <li><a href="about.html">About</a></li>
             <li><a href="facilities.html">Facilities</a></li>
             <li><a href="rooms.html">Rooms</a></li>
-            <li class="selected-item"><a href="excrusions.html">Excursions</a></li>
+            <li class="selected-item"><a href="excursions.html">Excursions</a></li>
             <li><a href="activities.html">Activities</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="guestbook.html">Guest book</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="reservation.html">Reservation</a></li>   
-            <li><div id='MicrosoftTranslatorWidget' class='Light' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){{var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=True&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); }},0);</script>
+            <li><!--
+                <div id='MicrosoftTranslatorWidget' class='Light' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){{var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=True&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); }},0);</script>
+                -->
             </li>                                                 
          </ul> 
 	</div> <!-- end sidebar navigation -->
@@ -442,13 +533,6 @@
       $.slidebars();
     });
   }) (jQuery);
-</script>
-
-<!-- slideshow --> 
-<script>
-  $(function() {
-    $(".ex-imglist").responsiveSlides();
-  });
 </script>
 
 </body>
