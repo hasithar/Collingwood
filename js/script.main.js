@@ -14,7 +14,8 @@ $(document).ready(function(){
 
 
 
-jQuery('#demo1').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+jQuery('#location1').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+jQuery('#location2').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
 
 
 

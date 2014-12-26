@@ -17,6 +17,6 @@ https://github.com/yairEO/photobox
 
 
 
-=== Sliding Images (Responsiveslides) ===
+=== Sliding Images Skidslider===
 
-http://responsiveslides.com/
+http://dandywebsolution.com/skdslider/
