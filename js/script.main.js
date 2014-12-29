@@ -17,6 +17,9 @@ $(document).ready(function(){
 jQuery('#location1').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
 jQuery('#location2').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
 
+jQuery('#activity1').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+jQuery('#activity2').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+
 
 
 
