@@ -1,0 +1,130 @@
+/* Header imagge
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#h-contact {
+	background-image: url(../img/headers/about.jpg);}
+
+
+
+/* General
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact-form .row {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Form elements
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */	
+#contact input[type="text"],
+#contact textarea {
+	border-radius: 5px;
+	height: 4rem;
+	border: 1px solid #189693 !important;
+} 
+
+	#contact input[type="text"]:hover,
+	#contact textarea:hover,
+	#contact input[type="text"]:focus,
+	#contact textarea:focus {
+		-webkit-box-shadow: inset 0 0 5px rgba(24,150,147,0.3) !important;
+		box-shadow: inset 0 0 5px rgba(24,150,147,0.3) !important;		
+	}
+
+	#contact ::-webkit-input-placeholder {
+	   color: #189693;
+	}
+
+	#contact :-moz-placeholder { /* Firefox 18- */
+	   color: #189693;  
+	}
+
+	#contact ::-moz-placeholder {  /* Firefox 19+ */
+	   color: #189693;  
+	}
+
+	#contact :-ms-input-placeholder {  
+	   color: #189693;  
+	}
+
+	textarea {
+	resize: none;
+	height: 13rem !important;
+		}
+
+		#contact-submit input[type="submit"],
+		#contact-submit input[type="reset"] {
+			width: 19rem;
+			margin-right: 1rem;
+			font-size: 1.4rem;
+			border: 1px solid #13807d;
+			color: #13807d;
+		}
+
+		#contact-submit input[type="submit"] {
+			color: #fff;
+			background-image: url(img/submit_background.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border: 1px solid #fff;
+		}
+
+			#contact-submit input[type="submit"]:hover,
+			#contact-submit input[type="reset"]:hover {
+				opacity: 0.8;
+			}
+
+
+/* typography
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contact-info p {
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	padding-left: 6rem;
+}
+
+
+
+/* icons
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contact-icon {
+	padding-left: 6rem;
+	background-image: url(img/contact-icons.png);
+	background-repeat: no-repeat;
+	min-height: 45px;
+}
+
+	.contact-icon h2 {
+		font-weight: 400;
+		font-size: 2rem;
+		padding-top: 0.5rem;
+	}
+
+#phone {
+	background-position: 0 -60px;
+}	
+
+#fax {
+	background-position: 0 -120px;
+}	
+
+#email {
+	background-position: 0 -180px;
+}	
+
+
+.contact-row {
+	display: box;
+}
+
+.contact-row div.separator {
+	margin-bottom: 2rem;
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.contact-row div.separator {
+		margin-top: 1rem;
+		margin-bottom: 5rem;
+	}	
+}
