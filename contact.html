@@ -30,7 +30,8 @@
     <script src="js/jquery-1.11.1.js"></script>
     <script src="js/slidebars.min.js"></script>
     <script src="js/bgswitcher.js"></script>
-    <script src="js/jquery.photobox.js"></script>
+    <script src="js/jquery.photobox.js"></script>    
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="js/script.main.js"></script>
 </head>
 
@@ -218,11 +219,20 @@
                 </div>
             </div>
         </div> <!-- end contact details -->
-
     </div> <!-- end detainls + form -->
+
+    <div class="row spacer120"></div>
+
+    <div id="map-placeholder" class="u-full-width">
+        <h1 class="light">Find us on map</h1>
+        <div id="map" class="u-max-full-width">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d990.095498558038!2d80.76671699137394!3d6.964184184713109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38054c17884ad%3A0x873d535bfa2d9e34!2sColling+Wood+Hotel!5e0!3m2!1sen!2slk!4v1421304385397" frameborder="0" style="border:0"></iframe>
+        </div>
+    </div>
 </div> <!-- end container -->
 
 <div class="spacer120"></div>
+<div class="spacer60"></div>
 
 
 
@@ -361,19 +371,10 @@
             <li><a href="guestbook.html">Guest book</a></li>
             <li class="selected-item"><a href="contact.html">Contact</a></li>
             <li><a href="reservation.html">Reservation</a></li>   
-            <li><!--<div id='MicrosoftTranslatorWidget' class='Light' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){{var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=True&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); }},0);</script>-->
+            <li><div id='MicrosoftTranslatorWidget' class='Light' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){{var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=True&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); }},0);</script>
             </li>                                                 
          </ul> 
 	</div> <!-- end sidebar navigation -->
-
-  <!-- sidebar navigation script --> 
-  <script>
-  (function($) {
-    $(document).ready(function() {
-      $.slidebars();
-    });
-  }) (jQuery);
-</script>
 
 </body>
 </html>

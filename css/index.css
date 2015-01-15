@@ -790,7 +790,7 @@ input[type='radio'] {
 
 
 
-.logo-placeholder, .intro, .thumb-bg, #footer-logos, #footer, .ex-image  {
+.logo-placeholder, .intro, .thumb-bg, #footer-logos, #footer, .ex-image, #map-placeholder  {
  	background-color: #0c6a68;
 	background-image:url(img/intro_overlay.jpg);}
 	

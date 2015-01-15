@@ -1,6 +1,9 @@
 // JavaScript Document
 $(document).ready(function(){
     
+	//sidebar navigation script
+	$.slidebars();
+
 	//Homepage header slider
 	$("#home-header").bgswitcher({
   		images: ["img/headers/home/img1.jpg",
@@ -28,16 +31,10 @@ jQuery('#activity2').skdslider({delay:6000, animationSpeed: 2000,showNextPrev:tr
 
 
 
+
+
+
+
 }); //end document.ready()
-
-
-
-
-
-
-
-
-
-
 
 

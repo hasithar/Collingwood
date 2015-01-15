@@ -128,3 +128,38 @@
 		margin-bottom: 5rem;
 	}	
 }
+
+
+
+
+/* map
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#map-placeholder {
+	padding-top: 1rem;
+	border: 1px solid #d4d3d3;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+}
+
+	#map-placeholder h1 {
+		font-size: 3rem;
+	}
+
+
+#map {
+	height: 48rem;
+	overflow: hidden;
+}
+
+	#map iframe {
+		width: 101%;
+		height: 48rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Larger than phablet */
+	@media (min-width: 550px) {
+		#map iframe {
+			width: 100%;
+		}	
+	}
